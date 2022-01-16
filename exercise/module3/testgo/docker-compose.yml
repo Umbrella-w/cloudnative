@@ -1,0 +1,7 @@
+version: '3'
+services:
+  app:
+    image: umbrellacn/web1:latest
+    ports:
+      - "80:80"
+    command: go run /go/src/main.go
