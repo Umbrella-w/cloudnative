@@ -32,6 +32,6 @@ services:
 
 ![image-20220116202908047](C:\Users\Umbre\AppData\Roaming\Typora\typora-user-images\image-20220116202908047.png)
 
-
+若没有docker-compose: `docker run -itd --name web -p 80:80 `
 
 ip访问：http://1.13.168.134/
