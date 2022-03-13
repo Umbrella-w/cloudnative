@@ -1,3 +1,4 @@
+### 增加延时
 ```go
 func images(w http.ResponseWriter, r *http.Request) {       timer :=
 metrics.NewTimer()     defer timer.ObserveTotal()      randInt :=
@@ -7,10 +8,10 @@ w.Write([]byte(fmt.Sprintf("<h1>%d<h1>", randInt))) }
 ```
 
 
-
+### 延时的metric
 //metrics.go
-package metrics
 
+package metrics
 import (
 	"fmt"
 	"time"
